@@ -6,8 +6,6 @@ import javax.security.auth.*;
 import javax.security.auth.login.*;
 import javax.security.auth.callback.*;
 
-import net.acperience.cloudplayer.MusicKerberos;
-
 /**
  * An abstract wrapper class to perform Kerberos authentication using Java. 
  * To use this class, you must first perform some configuration as described 
@@ -26,7 +24,7 @@ import net.acperience.cloudplayer.MusicKerberos;
  *
  * @author Lawliet
  * @see <a href="http://www.bsg.co.za/web/guest/software_solutions_technical_solution_showcase_java_kerberos">Link</a> for documentation
- * @see {@linkplain MusicKerberos} for an example implementation
+ * @see <a href="https://github.com/lawliet89/ICCloudCoursework/blob/master/src/net/acperience/cloudplayer/MusicKerberos.java">Example impelentation</a>.
  */
 public abstract class KerberosAuth implements CallbackHandler{
 		
